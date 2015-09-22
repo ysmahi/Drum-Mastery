@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenEdition</class>
+ <widget class="QWidget" name="FenEdition">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1436</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+background-color : white;
+}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>-10</y>
+     <width>1371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boutonRetourArriere">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/retour_arriere.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width : 70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boutonLangueFr">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/Fr.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width :70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boutonAide">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/Aide.png) 0 0 0 0 stretch stretch;
+border-width : 2px;
+background-position : center;
+min-width : 70px;
+max-width : 70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+border-color : red;
+border-style : solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>1051</width>
+     <height>72</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="boutonPlayPause">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/playoff.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width : 70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/ouvrir.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width : 70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>98</y>
+     <width>311</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="boutonSonOn">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/volume.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width :70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+}</string>
+        </property>
+        <property name="text">
+         <string>son_on</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="horizontalSlider">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="boutonMetronome">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+border-image : url(:/images/MesImages/metronome_on.png) 0 0 0 0 stretch stretch;
+border-width : 0px;
+background-position : center;
+min-width : 70px;
+max-width : 70px;
+min-height : 70px;
+max-height : 70px;
+color : transparent;
+margin-left : 100%;
+}</string>
+        </property>
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Timer" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>250</y>
+     <width>651</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>150</y>
+     <width>1091</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>70</y>
+     <width>20</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>60</y>
+     <width>1491</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Timer</class>
+   <extends>QWidget</extends>
+   <header>timer.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
